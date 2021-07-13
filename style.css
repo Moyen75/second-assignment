@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*---------------
+ common styles 
+ ---------------*/
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+ }
+  
+ /*---------------
+  header styles 
+  --------------*/
+header{
+    background-color: darkblue;
+    margin: 0;
+    
+}
+@keyframes sliding {
+    0%{background-color: hotpink;color: #000000;}
+    25%{background-color: tomato;color: #000000;}
+    50%{background-color: red;color: #000000;}
+    75%{background-color: yellow; color: #000000;}
+    100%{background-color: blue; color: #000000;}
+}
+header:hover .header-icon{
+    animation: sliding 4s 0.1s infinite normal ease-in-out ;
+}
+header:hover .about span {
+            animation: sliding 4s 0.1s infinite normal ease-in-out ;
+}
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.bar{
+    display: none;
+}
+.header-icon{
+    color: #ffffff;
+    background-color: #E02C6D;
+    height: 24px;
+    width: 123px;
+    padding: 10px, 24px, 10px, 24px;
+    text-align: center;
+}
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    color: #ffffff;
+    width: 450px;
+    height: 260px;
+    margin:121px 0 0 36px;
+}
+.about span{
+    color: #ffffff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.about-thumbnail{
+    margin-top: 119px;
+}
+.header-thumbnail img{
+    width: 224px;
+    height: 197px;
+}
