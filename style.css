@@ -12,7 +12,8 @@
   --------------*/
 header{
     background-color: darkblue;
-    margin: 0;
+    margin-bottom: 55px;
+    min-height: 520px;
     
 }
 @keyframes sliding {
@@ -46,29 +47,52 @@ header:hover .about span {
     background-color: #E02C6D;
     height: 24px;
     width: 123px;
-    padding: 10px, 24px, 10px, 24px;
+    padding: 30px, 24px, 30px, 24px;
     text-align: center;
 }
 .main-header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 70px 90px 21px 56px;
 }
 .about{
     color: #ffffff;
-    width: 450px;
+    width: 400px;
     height: 260px;
-    margin:121px 0 0 36px;
 }
 .about span{
     color: #ffffff;
     background-color: #E02C6D;
     padding: 10px 24px;
 }
-.about-thumbnail{
-    margin-top: 119px;
-}
 .header-thumbnail img{
-    width: 224px;
-    height: 197px;
+    width: 454px;
+    height: 350px;
+}
+/*-------------  
+menu styles 
+--------------*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    grid-gap: 25px;
+    
+}
+.player{
+    width: 240px;
+    height: 500px;
+    padding: 14px;
+    box-shadow: 10px 10px 10px #eee9e9;
+
+}
+.player-img img{
+    width: 100%;
 }
