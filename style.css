@@ -144,3 +144,16 @@ menu styles
     text-align: center;
     margin-top: 10px;
 }
+/* footer styles */
+.main-footer{
+    width: 350px;    
+    text-align: center;
+    margin-top: 32px;
+}
+.thumbnail{
+    margin-right: 5px;
+}
+.thumbnail img{
+    width: 100%; 
+
+}
